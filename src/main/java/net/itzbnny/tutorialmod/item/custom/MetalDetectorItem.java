@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
 
 public class MetalDetectorItem extends Item {
@@ -35,7 +36,7 @@ public class MetalDetectorItem extends Item {
 
 
            if (!foundBlock) {
-               player.sendMessage(Text.literal("No valuables found!"));
+               player.sendMessage(Text.literal("No valuables found!").formatted(Formatting.YELLOW), false);
            }
        }
 
@@ -50,6 +51,8 @@ public class MetalDetectorItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, PlayerEntity player, Block block) {
-      player.sendMessage(Text.literal("Found " + block.asItem().getName().getString() + " at " + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")"), false);
+        String message = "Found " + block.asItem().getName().getString() +
+                " at " + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")";
+        player.sendMessage(Text.literal(message).formatted(Formatting.YELLOW), false);
     }
 }
