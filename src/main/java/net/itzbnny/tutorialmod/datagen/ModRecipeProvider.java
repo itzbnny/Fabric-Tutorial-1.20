@@ -38,6 +38,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("SSS")
                 .input('S', Items.STONE)
                 .input('R', ModItems.RUBY)
+                .group("raw_ruby")
                 .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY)));
