@@ -168,5 +168,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_STAFF)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_HELMET, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_CHESTPLATE, 1)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_CHESTPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_LEGGINGS, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_LEGGINGS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_BOOTS, 1)
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_BOOTS)));
     }
 }
