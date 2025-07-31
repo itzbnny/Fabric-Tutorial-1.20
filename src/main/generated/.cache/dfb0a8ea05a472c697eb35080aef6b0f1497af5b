@@ -1,4 +1,4 @@
-// 1.20.1	2025-07-31T14:04:35.2187105	Tutorial Mod/Recipes
+// 1.20.1	2025-07-31T17:55:13.9545535	Tutorial Mod/Recipes
 45a72aa9f77db561dd695b48fd2e34029ab6b9a8 data\tutorialmod\recipes\ruby_wall.json
 759b89dcad891b58c19f91b7c41a786fa1bc8085 data\tutorialmod\advancements\recipes\combat\ruby_chestplate.json
 41f5ba29135a3b89528bd2a8a9bc5e37657efad8 data\tutorialmod\advancements\recipes\tools\ruby_shovel.json
@@ -20,8 +20,8 @@ f72cb32d605cec2684169bfaaeda9ae3b3604c64 data\tutorialmod\recipes\rub_fence_gate
 91669610c5a2bd261aa0c49b5f297583723e148f data\tutorialmod\advancements\recipes\tools\ruby_staff.json
 b3a98f6dc0ba5a451a331d5af86ccd2a5b7b219e data\tutorialmod\advancements\recipes\misc\ruby_from_smelting_end_stone_ruby_ore.json
 78cfa3335d6cb5c8f79fa407140e53e422ff4376 data\tutorialmod\advancements\recipes\building_blocks\ruby_wall.json
-e835019c10d53d778183a09fbe6d814121606343 data\tutorialmod\advancements\recipes\misc\ruby_from_smelting_nether_ruby_ore.json
 ec2bc0fc25e9891aacc14a3df93597a8af8a4609 data\tutorialmod\recipes\ruby_from_blasting_deepslate_ruby_ore.json
+e835019c10d53d778183a09fbe6d814121606343 data\tutorialmod\advancements\recipes\misc\ruby_from_smelting_nether_ruby_ore.json
 115a2a33c919b771d6bf1292032c30ccb926756a data\tutorialmod\recipes\ruby_pickaxe.json
 1f12cc8b9361afea9e69e5e840d43acfeb422fec data\tutorialmod\recipes\ruby_chestplate.json
 770874710bb80e372170185fd98c3b1d5bd04353 data\tutorialmod\advancements\recipes\misc\ruby_from_smelting_ruby_ore.json

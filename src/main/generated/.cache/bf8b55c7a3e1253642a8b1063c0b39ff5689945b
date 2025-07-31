@@ -1,4 +1,4 @@
-// 1.20.1	2025-07-31T14:04:35.2208439	Tutorial Mod/Model Definitions
+// 1.20.1	2025-07-31T17:55:13.9572271	Tutorial Mod/Model Definitions
 c530c1aabb34f764c985110f40b263d8e40e1b25 assets\tutorialmod\models\item\ruby_chestplate_diamond_trim.json
 df604a5827474a72c44e4b635f6e236bec0efdbf assets\tutorialmod\models\item\ruby_chestplate_quartz_trim.json
 7d2f8c926ad67d901fd027a3718e653156e8a24c assets\tutorialmod\models\item\ruby_leggings_gold_trim.json
@@ -84,8 +84,8 @@ e3f60b3866140ef9638c1ca652e87ca4a1cf97e0 assets\tutorialmod\models\item\ruby_hel
 69c2d540b8ddbd4e551bd70db496c57ee6450e49 assets\tutorialmod\blockstates\nether_ruby_ore.json
 7e439f9c39ea91be588ddc78cf4cd903b5b9cb70 assets\tutorialmod\blockstates\sound_block.json
 17e5c202e092b5cbbf288a2f314866bf93ecaae0 assets\tutorialmod\blockstates\ruby_trapdoor.json
-9b062c50679acb96ed97c1ecdc1f6e85a7cdedd7 assets\tutorialmod\models\block\raw_ruby_block.json
 1cac72dfcf0953756533a59048855cf9639b0f27 assets\tutorialmod\models\block\ruby_button_pressed.json
+9b062c50679acb96ed97c1ecdc1f6e85a7cdedd7 assets\tutorialmod\models\block\raw_ruby_block.json
 4a19a801e98fb8e89f84c029ba6b1121d2fd2145 assets\tutorialmod\models\block\ruby_fence_inventory.json
 614c8479da11bdafaa7223f769520123ba171468 assets\tutorialmod\models\block\deepslate_ruby_ore.json
 9bf4ea21309275e6ea9d5ed43210dd380deb8ff6 assets\tutorialmod\models\item\ruby_shovel.json
@@ -104,8 +104,8 @@ a6bcea2404322f59c9050612d5e7a6f93bfb4539 assets\tutorialmod\models\item\ruby_leg
 809a01e1f39dea07cb686033d6f30303110c0bce assets\tutorialmod\models\item\ruby_chestplate_emerald_trim.json
 eda40d759fe364655011dcece6a5e8d31d2360bb assets\tutorialmod\models\block\rub_fence_gate_wall_open.json
 bdac27efd46b299101b2f7bf1341e1de1c83b3f2 assets\tutorialmod\models\block\ruby_wall_side_tall.json
-f643f34a95274bef6bc781b8ba22b1969ff252e5 assets\tutorialmod\models\item\ruby_helmet_lapis_trim.json
 ab6d5bb86c6522fa3c42035f2a988d0cad069186 assets\tutorialmod\blockstates\ruby_door.json
+f643f34a95274bef6bc781b8ba22b1969ff252e5 assets\tutorialmod\models\item\ruby_helmet_lapis_trim.json
 b22f0b099a87f1765d55e8dd19827b8f9120ea6a assets\tutorialmod\models\block\ruby_button_inventory.json
 5f64071542676a56091f2a24d8402a47d9df7279 assets\tutorialmod\models\item\ruby_leggings.json
 103235a015b0ddd108f686804374cea420251156 assets\tutorialmod\models\item\ruby_leggings_diamond_trim.json
