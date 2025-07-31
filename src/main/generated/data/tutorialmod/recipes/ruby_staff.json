@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "R": {
+      "item": "tutorialmod:ruby"
+    }
+  },
+  "pattern": [
+    " R ",
+    " N ",
+    " N "
+  ],
+  "result": {
+    "item": "tutorialmod:ruby_staff"
+  },
+  "show_notification": true
+}
