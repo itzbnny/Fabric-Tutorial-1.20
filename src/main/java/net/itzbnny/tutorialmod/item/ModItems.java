@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.itzbnny.tutorialmod.TutorialMod;
 import net.itzbnny.tutorialmod.item.custom.MetalDetectorItem;
+import net.itzbnny.tutorialmod.item.custom.ModArmorItem;
 import net.itzbnny.tutorialmod.item.custom.ModFoodComponents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -39,7 +40,7 @@ public class ModItems {
             new HoeItem(ModToolMaterial.RUBY, 0, 0f, new FabricItemSettings()));
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
-            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
