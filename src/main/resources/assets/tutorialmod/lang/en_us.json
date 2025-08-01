@@ -24,6 +24,8 @@
   "item.tutorialmod.corn": "Corn",
   "item.tutorialmod.corn_seeds": "Corn Seeds",
 
+  "block.tutorialmod.dahlia": "Dahlia",
+
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
 
@@ -42,6 +44,8 @@
   "block.tutorialmod.ruby_wall": "Ruby Wall",
   "block.tutorialmod.ruby_door": "Ruby Door",
   "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
+
+  "entity.minecraft.villager.sound_master": "Sound Master",
 
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
 

@@ -6,7 +6,9 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.itzbnny.tutorialmod.block.ModBlocks;
 import net.itzbnny.tutorialmod.item.ModItemGroups;
 import net.itzbnny.tutorialmod.item.ModItems;
+import net.itzbnny.tutorialmod.util.ModCustomTrades;
 import net.itzbnny.tutorialmod.util.ModLootTableModifiers;
+import net.itzbnny.tutorialmod.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +24,8 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModLootTableModifiers.modifyLootTables();
+		ModCustomTrades.registerCustomTrades();
+		ModVillagers.registerVillagers();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
