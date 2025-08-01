@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.itzbnny.tutorialmod.TutorialMod;
+import net.itzbnny.tutorialmod.block.ModBlocks;
 import net.itzbnny.tutorialmod.item.custom.MetalDetectorItem;
 import net.itzbnny.tutorialmod.item.custom.ModArmorItem;
 import net.itzbnny.tutorialmod.item.custom.ModFoodComponents;
@@ -21,6 +22,9 @@ public class ModItems {
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
             new Item(new FabricItemSettings()));
 
