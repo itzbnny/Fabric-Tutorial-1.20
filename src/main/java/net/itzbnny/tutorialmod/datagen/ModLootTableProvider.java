@@ -3,6 +3,7 @@ package net.itzbnny.tutorialmod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.itzbnny.tutorialmod.block.ModBlocks;
+import net.itzbnny.tutorialmod.block.custom.CornCropBlock;
 import net.itzbnny.tutorialmod.block.custom.TomatoCropBlock;
 import net.itzbnny.tutorialmod.item.ModItems;
 import net.minecraft.block.Block;
@@ -50,6 +51,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(TomatoCropBlock.Age, 5));
         addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP, ModItems.TOMATO, ModItems.TOMATO_SEEDS, builder));
+
+       /* AnyOfLootCondition.Builder builder2 =
+                BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                        .exactMatch(CornCropBlock.Age, 7))
+                        .or(BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                                .exactMatch(CornCropBlock.Age, 8)));
+        addDrop(ModBlocks.CORN_CROP, cropDrops(ModBlocks.CORN_CROP, ModItems.CORN, ModItems.CORN_SEEDS, builder2)); */ //Drops corn when age is 7 or 8 (ew)
+
+         BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                 .exactMatch(CornCropBlock.AGE, 8));
+        addDrop(ModBlocks.CORN_CROP, cropDrops(ModBlocks.CORN_CROP, ModItems.CORN, ModItems.CORN_SEEDS, builder2));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

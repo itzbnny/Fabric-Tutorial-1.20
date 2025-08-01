@@ -3,6 +3,7 @@ package net.itzbnny.tutorialmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.itzbnny.tutorialmod.TutorialMod;
+import net.itzbnny.tutorialmod.block.custom.CornCropBlock;
 import net.itzbnny.tutorialmod.block.custom.SoundBlock;
 import net.itzbnny.tutorialmod.block.custom.TomatoCropBlock;
 import net.minecraft.block.*;
@@ -59,6 +60,9 @@ public class ModBlocks {
 
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "corn_crop"),
+            new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
