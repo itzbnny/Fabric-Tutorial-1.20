@@ -49,5 +49,10 @@
 
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
 
+  "tutorialmod:metal_detector_found_ore": "Metal Detector Jingle",
+
+  "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl",
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }

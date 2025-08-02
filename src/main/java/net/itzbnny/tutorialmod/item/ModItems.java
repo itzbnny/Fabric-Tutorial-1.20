@@ -8,6 +8,7 @@ import net.itzbnny.tutorialmod.block.ModBlocks;
 import net.itzbnny.tutorialmod.item.custom.MetalDetectorItem;
 import net.itzbnny.tutorialmod.item.custom.ModArmorItem;
 import net.itzbnny.tutorialmod.item.custom.ModFoodComponents;
+import net.itzbnny.tutorialmod.sound.ModSounds;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -32,6 +33,8 @@ public class ModItems {
 
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
             new Item(new FabricItemSettings()));
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL,new FabricItemSettings().maxCount(1), 122));
 
 
     public static final Item RUBY_STAFF = registerItem("ruby_staff",

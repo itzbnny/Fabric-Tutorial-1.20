@@ -55,6 +55,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
