@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:rub_fence_gate"
+        "recipe": "minecraft:ruby_fence_gate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_ruby",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_ruby"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:rub_fence_gate"
+      "minecraft:ruby_fence_gate"
     ]
   },
   "sends_telemetry_event": false

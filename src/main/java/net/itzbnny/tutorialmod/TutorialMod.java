@@ -2,8 +2,11 @@ package net.itzbnny.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.itzbnny.tutorialmod.block.ModBlocks;
+import net.itzbnny.tutorialmod.entity.ModEntities;
+import net.itzbnny.tutorialmod.entity.custom.PorcupineEntity;
 import net.itzbnny.tutorialmod.item.ModItemGroups;
 import net.itzbnny.tutorialmod.item.ModItems;
 import net.itzbnny.tutorialmod.sound.ModSounds;
@@ -30,5 +33,6 @@ public class TutorialMod implements ModInitializer {
 		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
 }

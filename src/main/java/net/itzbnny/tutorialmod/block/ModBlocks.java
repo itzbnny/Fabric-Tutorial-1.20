@@ -50,7 +50,7 @@ public class ModBlocks {
 
     public static final Block RUBY_FENCE = registerBlock("ruby_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    public static final Block RUBY_FENCE_GATE = registerBlock("rub_fence_gate",
+    public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), WoodType.ACACIA));
     public static final Block RUBY_WALL = registerBlock("ruby_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
