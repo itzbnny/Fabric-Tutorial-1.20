@@ -9,8 +9,10 @@ import net.itzbnny.tutorialmod.entity.ModEntities;
 import net.itzbnny.tutorialmod.entity.client.ModModelLayers;
 import net.itzbnny.tutorialmod.entity.client.PorcupineModel;
 import net.itzbnny.tutorialmod.entity.client.PorcupineRenderer;
+import net.itzbnny.tutorialmod.screen.GemPolishingScreen;
+import net.itzbnny.tutorialmod.screen.ModScreenHandlers;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.entity.model.EntityModelLayer;
 
 public class TutorialModClient implements ClientModInitializer {
     @Override
@@ -26,5 +28,7 @@ public class TutorialModClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.PORCUPINE, PorcupineRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
+
+        HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, GemPolishingScreen::new);
     }
 }
